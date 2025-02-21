@@ -1,0 +1,24 @@
+syntax = "proto3";
+package king.v1;
+
+// governs the process of advertising and filling open roles within the kingdom
+// these vacancies can be satisfied by Ronin who join as new Barons
+service VacancyService {
+  // a King advertises open baronships in the kingdom
+  rpc ListVacancies(ListVacanciesRequest) returns (ListVacanciesResponse);
+}
+
+// ask the King to list open Baronships in the kingdom.
+//
+// Filters are used to ask the King if there is a need for a new Baron
+// with certain properties (e.g. matching the resources of the
+// Ronin making the request).
+//
+// This is more lightweight than simply polling the entire
+// Vacancy List and searching through it for a matching
+// vacant Baronship. It also opens the door to atomic
+// vacancy-fill transactions.
+message ListVacanciesRequest {}
+
+// all the corresponding open Baronships in the kingdom
+message ListVacanciesResponse {}

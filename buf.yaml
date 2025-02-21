@@ -1,0 +1,15 @@
+---
+# https://buf.build/docs/tutorials/getting-started-with-buf-cli
+# https://buf.build/docs/configuration/v2/buf-yaml/
+version: v2
+modules:
+  - path: proto
+lint:
+  # https://buf.build/docs/lint/rules/
+  use:
+    - STANDARD
+    - COMMENTS
+    - UNARY_RPC
+breaking:
+  use:
+    - FILE

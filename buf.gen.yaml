@@ -1,0 +1,21 @@
+---
+version: v2
+managed:
+  # https://buf.build/docs/generate/managed-mode
+  enabled: true
+  override:
+    - file_option: go_package_prefix
+      value: "jungle"
+plugins:
+  - remote: buf.build/protocolbuffers/go
+    out: gen/go
+    opt: paths=source_relative
+  - remote: buf.build/connectrpc/go
+    # https://buf.build/docs/bsr/remote-plugins/usage/#connect-go
+    out: gen/go
+    opt: paths=source_relative
+  - remote: buf.build/grpc/go
+    out: gen/go
+    opt: paths=source_relative
+inputs:
+  - directory: proto

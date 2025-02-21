@@ -1,0 +1,20 @@
+#+TITLE: Jungle Protocol
+
+* Development
+
+** generate updated gRPC from .proto files
+#+begin_src shell
+make gen
+#+end_src
+
+
+** format .proto files
+#+begin_src shell
+make format
+#+end_src
+
+
+** style guide
+
+- https://buf.build/docs/best-practices/style-guide/
+- a good example: https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto
