@@ -1,3 +1,6 @@
+.PHONY: all
+all: gen format lint
+
 .PHONY: gen
 gen:
 	buf generate
