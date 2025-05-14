@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: king/v1/vacancy.proto
 
-package kingv1
+package v1
 
 import (
 	context "context"

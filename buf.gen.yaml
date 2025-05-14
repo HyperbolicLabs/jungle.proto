@@ -1,11 +1,12 @@
+# TODO https://stackoverflow.com/questions/74259855/import-protobuf-file-from-github-repository
 ---
 version: v2
 managed:
   # https://buf.build/docs/generate/managed-mode
   enabled: true
-  override:
-    - file_option: go_package_prefix
-      value: "jungle"
+  # override:
+  #   - file_option: go_package_prefix
+  #     value: "jungle"
 plugins:
   - remote: buf.build/protocolbuffers/go
     out: gen/go
@@ -18,4 +19,4 @@ plugins:
     out: gen/go
     opt: paths=source_relative
 inputs:
-  - directory: proto
+  - directory: protos

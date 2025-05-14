@@ -2,13 +2,13 @@
 //
 // Source: king/v1/vacancy.proto
 
-package kingv1connect
+package v1connect
 
 import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "jungle/king/v1"
+	v1 "github.com/hyperboliclabs/jungle.proto/king/v1"
 	http "net/http"
 	strings "strings"
 )

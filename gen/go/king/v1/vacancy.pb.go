@@ -4,7 +4,7 @@
 // 	protoc        (unknown)
 // source: king/v1/vacancy.proto
 
-package kingv1
+package v1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -112,8 +112,8 @@ const file_king_v1_vacancy_proto_rawDesc = "" +
 	"\x14ListVacanciesRequest\"\x17\n" +
 	"\x15ListVacanciesResponse2`\n" +
 	"\x0eVacancyService\x12N\n" +
-	"\rListVacancies\x12\x1d.king.v1.ListVacanciesRequest\x1a\x1e.king.v1.ListVacanciesResponseBo\n" +
-	"\vcom.king.v1B\fVacancyProtoP\x01Z\x15jungle/king/v1;kingv1\xa2\x02\x03KXX\xaa\x02\aKing.V1\xca\x02\aKing\\V1\xe2\x02\x13King\\V1\\GPBMetadata\xea\x02\bKing::V1b\x06proto3"
+	"\rListVacancies\x12\x1d.king.v1.ListVacanciesRequest\x1a\x1e.king.v1.ListVacanciesResponseB\x88\x01\n" +
+	"\vcom.king.v1B\fVacancyProtoP\x01Z.github.com/hyperboliclabs/jungle.proto/king/v1\xa2\x02\x03KXX\xaa\x02\aKing.V1\xca\x02\aKing\\V1\xe2\x02\x13King\\V1\\GPBMetadata\xea\x02\bKing::V1b\x06proto3"
 
 var (
 	file_king_v1_vacancy_proto_rawDescOnce sync.Once

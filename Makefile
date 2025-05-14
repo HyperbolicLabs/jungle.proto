@@ -7,7 +7,7 @@ gen:
 
 .PHONY: format
 format:
-	buf format proto -w
+	buf format protos -w
 
 .PHONY: lint
 lint:

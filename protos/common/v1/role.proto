@@ -1,6 +1,8 @@
 syntax = "proto3";
 package common.v1;
 
+option go_package = "github.com/hyperboliclabs/jungle.proto/common/v1";
+
 // A Baron is a Kubernetes Cluster with HyperdOS installed
 // that elects to join a Kingdom (by selecting a King cluster)
 // in order to monetize its spare compute/network/storage resources etc.

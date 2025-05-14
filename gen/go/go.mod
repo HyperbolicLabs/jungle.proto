@@ -1,4 +1,4 @@
-module jungle
+module github.com/hyperboliclabs/jungle.proto
 
 go 1.23
 
