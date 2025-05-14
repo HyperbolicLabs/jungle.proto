@@ -145,8 +145,8 @@ const file_common_v1_role_proto_rawDesc = "" +
 	"\fROLE_CRICKET\x10\x04\x12\x11\n" +
 	"\rROLE_SQUIRREL\x10\x05\x12\x0e\n" +
 	"\n" +
-	"ROLE_RHINO\x10\x06B\x91\x01\n" +
-	"\rcom.common.v1B\tRoleProtoP\x01Z0github.com/hyperboliclabs/jungle.proto/common/v1\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
+	"ROLE_RHINO\x10\x06B\x98\x01\n" +
+	"\rcom.common.v1B\tRoleProtoP\x01Z7github.com/hyperboliclabs/jungle.proto/gen/go/common/v1\xa2\x02\x03CXX\xaa\x02\tCommon.V1\xca\x02\tCommon\\V1\xe2\x02\x15Common\\V1\\GPBMetadata\xea\x02\n" +
 	"Common::V1b\x06proto3"
 
 var (

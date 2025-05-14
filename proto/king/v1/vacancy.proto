@@ -1,7 +1,7 @@
 syntax = "proto3";
 package king.v1;
 
-option go_package = "github.com/hyperboliclabs/jungle.proto/king/v1";
+option go_package = "github.com/hyperboliclabs/jungle.proto/gen/go/king/v1";
 
 // governs the process of advertising and filling open roles within the kingdom
 // these vacancies can be satisfied by Ronin who join as new Barons
